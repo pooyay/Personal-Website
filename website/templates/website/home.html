@@ -1,0 +1,84 @@
+{% load static %}
+
+<link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Home </title>
+</head>
+<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="Profile Picture">
+                <div id="profile-wrapper" class="card card-body">
+                    <img id="profile-pic" src="{% static 'images/profile.jpg' %}">
+                    <hr>
+                    <h3>Pooya Yousefi</h3>
+                    <p>College Student, 20</p>
+                </div>
+            </div>
+            <div class="col-md-8" id="A Little More About Me">
+                <div class="card card-body">
+                    <h3>A Little More About Me</h3>
+                    <hr>
+                    <p style="margin: 0">I like programming, machine learning and genetics.</p>
+                    <p style="margin: 0">I want to learn more about data analyzing.</p>
+                    <p style="margin: 0">I studied Mathematics and Physics in high school. Currently I study Computer Engineering in Sharif University of Technology and
+                        for now, I think I will work and in a field related to genetics.</p>
+                    <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6" id="What I Know">
+                <div class="card card-body">
+                    <h3>What I Know</h3>
+                    <hr>
+                    <p style="margin:5"> I have some experience in C, C++, Java, Python and Django. </p>
+                    <p style="margin:5"> I have also some experience in data collection libraries in Python like Numpy and Pandas. </p>
+                </div>
+            </div>
+            <div class="col-md-6" id="My Interests">
+                <div class="card card-body">
+                    <h3>My Interests</h3>
+                    <hr>
+                    <p style="margin:5"> Besides Programing, I like fantasy and fictional stories like Tolkien's legendarium and Warcraft. </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6" id="Anything else">
+                <div class="card card-body">
+                    <h3>Anything else...?</h3>
+                    <hr>
+                    <p>Nothing crosses my mind right now. :)</p>
+                </div>
+            </div>
+            <div class="col-md-6" id="Contacts">
+                <div class="card card-body">
+                    <h3>Where You Can Contact Me</h3>
+                    <hr>
+                    <p> In LinkedIn and Telegram.</p>
+
+                    <ul class="social-links">
+                        <a href="https://www.linkedin.com/in/pooya-yousefi-9323a3210/"> <img src="{% static 'images/linkedin.png' %}" height="20px" width="20px"> </a>
+                        <a href="http://t.me/PooyaY">                                   <img src="{% static 'images/telegram.png' %}" height="20px" width="20px"> </a>
+                        <a href="https://github.com/pooyay">                            <img src="{% static 'images/github.png' %}" height="20px" width="20px"> </a>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+</body>
+</html>
